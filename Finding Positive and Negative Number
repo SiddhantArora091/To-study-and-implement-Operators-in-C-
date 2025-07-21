@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Please enter any whole number:";
+    cin>>num;
+    if(num>0)cout<<"That's a positive number. Good vibes!"<<endl;
+    else if(num<0)cout<<"That's a negative number. Stay strong!"<<endl;
+    else cout<<"Zero! Neither up nor down—perfectly balanced."<<endl;
+    return 0;
+}
+/*Output:-
+Please enter any whole number:1
+That's a positive number. Good vibes!
+*/
