@@ -1,3 +1,9 @@
+Siddhant Arora
+
+24070123107
+
+ENTC B1
+
 # C++ Basics: Interactive Console Programs
 
 This repository contains a set of beginner-friendly C++ programs designed to teach basic programming concepts such as user input/output, conditionals, arithmetic operations, and logical reasoning. Each program handles a real-world style input and responds with an appropriate result.
