@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float mark1,mark2,mark3,average;
+    cout<<"Enter your marks for three subjects (out of 100):";
+    cin>>mark1>>mark2>>mark3;
+    average=(mark1+mark2+mark3)/3;
+    char grade;
+    string message;
+    if(average>=90){grade='A';message="Excellent work! You're acing it.";}
+    else if(average>=80){grade='B';message="Great job! Keep it up.";}
+    else if(average>=70){grade='C';message="Good effort. A little push and you'll shine!";}
+    else if(average>=60){grade='D';message="You're doing okay, but there's room to grow.";}
+    else{grade='F';message="Don't be discouraged. Every failure is a step to success!";}
+    cout<<"Average: "<<average<<"%\nGrade: "<<grade<<"\n"<<message<<endl;
+    return 0;
+}
+
+/*Output:-
+Enter your marks for three subjects (out of 100):98,97,90
+Average: 95%
+Grade: A
+Excellent work! You're acing it.
+*/
