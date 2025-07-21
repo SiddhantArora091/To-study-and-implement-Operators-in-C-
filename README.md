@@ -49,13 +49,6 @@ Takes (x, y) coordinates as input and determines in which quadrant the point lie
 
 ---
 
-## How to Run These Programs
-
-1. Make sure you have a C++ compiler (like `g++`) installed.
-2. Clone the repository or copy any `.cpp` file.
-3. Compile using the terminal:
-   ```bash
-   g++ program_name.cpp -o program_name
 ## Conclusion
 
 These programs provide a practical introduction to core C++ concepts such as variables, data types, input/output operations, and conditional logic. By working through real-world examples—calculating grades, identifying number types, locating points on a coordinate plane, and exploring data type sizes—beginners can build a strong foundation in programming fundamentals.
