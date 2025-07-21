@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cout<<"Enter x:";
+    cin>>x;
+    cout<<"Enter y:";
+    cin>>y;
+    if(x==0&&y==0)cout<<"The point is at the origin."<<endl;
+    else if(x==0)cout<<"The point lies on the Y-axis."<<endl;
+    else if(y==0)cout<<"The point lies on the X-axis."<<endl;
+    else if(x>0&&y>0)cout<<"1st quadrant"<<endl;
+    else if(x<0&&y>0)cout<<"2nd quadrant"<<endl;
+    else if(x<0&&y<0)cout<<"3rd quadrant"<<endl;
+    else if(x>0&&y<0)cout<<"4th quadrant"<<endl;
+    return 0;
+}
+
+/*Output:-
+Enter x:10
+Enter y:20
+1st quadrant
+*/
