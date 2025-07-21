@@ -19,6 +19,15 @@ Takes the marks of three subjects from the user, calculates the average, and ass
 
 **Sample Output:**
 
+Enter your marks for three subjects (out of 100):98,97,90
+
+Average: 95%
+
+Grade: A
+
+Excellent work! You're acing it.
+
+
 ---
 
 ### 2. Number Type Identifier
@@ -33,6 +42,10 @@ Asks the user to enter a number and classifies it as positive, negative, or zero
 
 **Sample Output:**
 
+Please enter any whole number:1
+
+That's a positive number. Good vibes!
+
 ---
 
 ### 3. Coordinate Quadrant Detector
@@ -46,6 +59,13 @@ Takes (x, y) coordinates as input and determines in which quadrant the point lie
 - Geometric reasoning
 
 **Sample Output:**
+
+Enter x:10
+
+
+Enter y:20
+
+1st quadrant
 
 ---
 
